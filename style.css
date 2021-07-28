@@ -471,7 +471,7 @@ left: 41px;
     }
 
 
-body,html{overflow:hidden;}
+body,html{overflow-x:hidden;}
 .rws {
     line-height: 40px;
     color: #565454;
@@ -864,8 +864,31 @@ h5{padding: 16px;
     top: 15px !important;
 }
 
+@media only screen and (min-width:360px) and (max-width:400px){
+.bg {
+    background: #f5f5f5;
+    width: 343px!important;
+    padding: 15px;
+    margin-top: 35px;
+    margin-left: -6px;
+}
 
-@media only screen and (max-width: 650px) {
+.input-file-container {
+    position: relative;
+    width: 313px;
+}
+
+.bt {
+    float: right;
+    padding: 20px 90px;
+    display: flex;
+    position: relative;
+    left: 49px;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
 
 .bg {
     background: #f5f5f5;
@@ -887,15 +910,20 @@ margin-top: 35px;    margin-left: -6px;}
 transform: translate(-111%, -90%);padding:12px;}
 
 }
+
 @media only screen and (max-width:824px) and (orientation:landscape) {
 
-.bg{width: 796px;
+.cros {
+    top: -360px!important;
+    left: 353px!important;
+    position: absolute!important;
+    font-size: 30px!important;
+}
+	.bg{width: 796px;
     padding: 15px;
     margin-top: 50px;
     margin-left: -208px!important;
 }
-
-
 
 
 #company {
@@ -919,5 +947,121 @@ transform: translate(-111%, -90%);padding:12px;}
 }
 }
 
+@media only screen and (min-width:640px) and (max-width:731px) and  (orientation:landscape) {
+	.cros {
+    top: -599px!important;
+    left: 584px!important;
+    position: absolute!important;
+    font-size: 30px!important;
+}
+	.bg {
+    width: 622px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: -163px!important;
+}
+	
+	.input-file-container {
+    position: relative;
+    width: 586px;
+}
 
+.widget-container {
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    left: 50%;
+    transform: translate(-48%,10%);
+    margin-top: -189px;
+    /* margin-left: -318px; */
+    background: #fff;
+    width: 628px;
+}
 
+.inputs {
+    margin: 10px 20px 30px 20px;
+    padding: 3px 20px;
+    position: relative;
+    left: 192px;
+    z-index: 9999;
+}
+.min {
+    white-space: nowrap;
+    position: relative!important;
+    top: -9px!important;
+    left: 38px !important;
+}
+
+.btn_style {
+    width: 186px;
+    padding: 9px;
+    margin-top: 4px;
+    margin-left: 413px;
+    position: relative;
+    top: -343px;
+}
+h1{    margin-left: 378px;}
+}
+
+@media only screen and (min-width:731px) and (max-width:751px) and  (orientation:landscape) {
+	
+	.cros {
+    top: -598px!important;
+    left: 674px !important;
+    position: absolute !important;
+    font-size: 30px !important;
+}
+	.widget-container {
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    left: 50%;
+    transform: translate(-48%,10%);
+    margin-top: -189px;
+    /* margin-left: -318px; */
+    background: #fff;
+    width: 704px!important;
+    height: 408px;}
+	
+	h1{    margin-left: 413px;}
+	
+	.inputs {
+    margin: 10px 20px 30px 20px;
+    padding: 3px 20px;
+    position: relative;
+    left: 251px;
+    z-index: 9999;}
+	
+	.min {
+    white-space: nowrap;
+    position: relative!important;
+    top: -9px!important;
+    left: 98px !important;}
+	
+	.btn_style {
+    width: 186px;
+    padding: 9px;
+    margin-top: 4px;
+    margin-left: 470px;
+    position: relative;
+    top: -343px;
+}
+	
+.bg {
+    width: 708px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: -183px!important;
+}
+	
+	.input-file-container {
+    position: relative;
+    width: 586px;
+}
+}
+
+.cros{    top: -360px;
+    left: 331px;
+    position: absolute;
+    font-size: 30px;
+}
