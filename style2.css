@@ -1,0 +1,396 @@
+    /*kyc*/
+    *{margin:0;padding: 0;}
+    .header{ background-color: #4c4646;;width:100%;height:70px;}
+    .bt{float:right;padding: 20px 90px;}
+    .btn2{padding: 9px 36px;width:100px;height:34px;background-color: rgb(106, 63, 226);border-radius:5px;border:none;color:#fff;text-transform: uppercase;}
+
+    .form-popups {
+        display: none;
+        position: fixed;
+       top:3%;
+       left:33%;
+       transform: translate(-50,-50%);
+       
+        z-index: 9;
+    }
+
+
+    .bord{background:#e8eeef;
+      width: 480px;
+      /* height: 80px; */
+      height: 44px;
+      padding: 10px 0px;
+      margin-top: -32px;
+      margin-left: -20px;border-radius: 8px 8px 0px 0px;
+    
+  }
+    
+.bannner img{width:100%;height:800px;}
+    
+.close-x{    position: relative;
+    top: -396px;
+    left: 424px;}
+
+	.placeholder{    position: relative;
+        top: -5px;}
+        
+        .up{display:flex;}
+        label {
+      color:#6b757c;
+      background-color:#e8eeef;
+      cursor: pointer;
+      user-select: none;
+      width: 100%;
+      font-size:16px;
+      max-width: 300px;
+      
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      font-weight:500;
+      box-shadow: 0 2px 4px 2px #e6f1fa ee;
+      transition: background-color 0.3s;
+    }
+    label .icon {
+      fill: currentcolor;
+      display: inline-block;
+      margin-right: 1rem;
+    }
+    label input[type="file"] {
+      display: none;
+    }
+    
+        .mts{margin-top:30px;}
+    body {
+      font-family: 'Open Sans', sans-serif;
+      color: #384047;
+    }
+    
+    h3{color:#0e4454!important;position:relative;top:-22px;}
+    
+    form {
+      max-width: 300px;
+      margin: 50px auto;
+      padding: 10px 20px;
+      background: #f4f7f8;
+      border-radius: 8px;
+    }
+    
+    h1 {
+      margin: 0 0 30px 0;
+      text-align: center;
+    }
+    
+    input[type="text"],
+    input[type="password"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="time"],
+    input[type="url"],
+    textarea,
+    select {
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      font-size: 16px;
+      border-radius: 5px;
+      height: auto;
+      margin: 0;
+      outline: 0;
+      height: 41px;
+      padding: 15px;
+      width: 100%;
+      background-color: #e8eeef;
+      color:#6b757c;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+      margin-bottom: 30px;
+    }
+    
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin: 0 4px 8px 0;
+    }
+    
+    select {margin-top: 21px;
+      padding: 6px;
+      height: 41px;
+      border-radius: 2px;
+    }
+    
+    button {
+      padding: 19px 39px 18px 39px;
+      color: #FFF;margin-top: -20px;
+      
+      background-color: #cf9e41;
+      font-size: 18px;
+      text-align: center;
+      font-style: normal;
+      border-radius: 5px;
+    
+      border: 1px solid #cf9e41;
+      border-width: 1px 1px 3px;
+      box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+      margin-bottom: 10px;
+          width: 32%;
+        line-height: 11px;
+        height: 50px;
+    }
+    
+    fieldset {
+      margin-bottom: 30px;
+      border: none;
+    }
+    
+    legend {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    
+    label.light {
+      font-weight: 300;
+      display: inline;
+    }
+    
+    .number {
+      background-color: #5fcf80;
+      color: #fff;
+      height: 30px;
+      width: 30px;
+      display: inline-block;
+      font-size: 0.8em;
+      margin-right: 4px;
+      line-height: 30px;
+      text-align: center;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+      border-radius: 100%;
+    }
+    
+    @media screen and (min-width: 480px) {
+      form {
+        max-width: 480px;
+      }
+    }
+    
+    
+    @media only screen and (max-width:835px)  and (orientation:landscape) {
+    input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea, select {
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        height: auto;
+        margin: 0;
+        outline: 0;
+        height:49px;
+        display: inline;
+        padding: 15px;
+        width: 48%;
+        background-color: #e8eeef;
+        color: #6b757c;
+        box-shadow: 0 1px 0 rgb(0 0 0 / 3%) inset;
+        margin-bottom: 30px;
+    }
+
+    #job{margin-top:20px;}
+    .bord {
+      background: #e8eeef;
+      width: 830px;
+      /* height: 80px; */
+      height: 44px;
+      padding: 10px 0px;
+      margin-top: -9px;
+      margin-left: -20px;
+  }
+    .close-x {
+        position: relative;
+        top: -350px;
+        left: 761px;
+    }
+ button{padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin-top: -20px;
+    background-color: #cf9e41;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border: 1px solid #cf9e41;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgb(255 255 255 / 10%) inset;
+    margin-bottom: 8px;
+    width: 17%;
+    line-height: 11px;
+    height: 45px;
+    position: relative;
+    top: -22px;}
+
+
+    .form-popups {
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 828px;
+        transform: translate(-50,-50%);
+        z-index: 9;
+    }
+    form {
+        max-width: 835px!important;
+          margin: 0px auto;
+        padding: 10px 20px;
+        background: #f4f7f8;
+        border-radius: 8px;
+        height: 414px;
+    
+    }
+    
+    button{margin-top:-4px;}
+    
+    #name{      position: relative!important;
+        left: 18px;
+        top: 0px!important;
+        height: 49px;
+    }
+    
+    label {
+        color: #6b757c;
+        background-color: #e8eeef;
+        cursor: pointer;
+        user-select: none;
+        width: 100%;
+        font-size: 16px;
+        border-radius:none;
+            max-width: 376px;}
+        
+        .two{    position: relative;
+        left: 14px;
+    }
+    
+    }
+    
+     @media only screen and (max-width:360px) and (min-width:300px){
+		 
+		 .placeholder {
+    position: relative;
+    top: -5px;
+    left: -1px;
+    font-weight: 500;
+    font-size: 11px!important;
+    white-space: nowrap;
+}
+
+.close-x {
+    position: relative!important;
+    top: -396px!important;
+    left: 303px!important;
+}
+
+	 }
+	 
+	 
+	 @media only screen and (max-width:640px) and (min-width:620px)  and (orientation:landscape) {
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea, select {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    height: 49px;
+    display: inline;
+    padding: 15px;
+    width: 37%!important;
+    background-color: #e8eeef;
+    color: #6b757c;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 3%) inset;
+    margin-bottom: 30px;
+}
+
+label {
+    color: #6b757c;
+    background-color: #e8eeef;
+    cursor: pointer;
+    user-select: none;
+    width: 100%;
+    font-size: 16px;
+    border-radius: none;
+    max-width: 293px;
+}
+
+button{position: relative;
+    top: -22px;
+    left: -93px;
+}	
+
+.close-x {
+    position: relative;
+    top: -350px;
+    left: 591px;
+}
+ 
+	 }	 
+	 
+	 
+
+
+
+
+
+    
+    @media only screen and (max-width:600px) {
+
+
+      h3 {
+        color: #0e4454!important;
+        position: relative;
+        top: -22px;
+        left: -30px;
+    }
+      label .icon {
+        fill: currentcolor;
+        display: inline-block;margin-right:0px;
+        white-space: nowrap!important;}
+
+        .close-x {
+            position: relative;
+            top: -394px;
+            left: 357px;
+        }
+
+
+        .form-popups {
+            display: none;
+            position: fixed;
+            top: 3%;
+            left: 0%;
+            transform: translate(-50,-50%);
+            z-index: 9}
+    form {
+        max-width: 408px;
+        margin: 50px auto;
+        padding: 10px 20px;
+        background: #f4f7f8;
+        border-radius: 8px;
+    }
+    
+    button{width:38%;}
+    .placeholder {
+        position: relative;
+        top: -5px;
+        left: -1px;
+        font-weight: 500;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+    }
