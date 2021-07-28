@@ -889,10 +889,10 @@ transform: translate(-111%, -90%);padding:12px;}
 }
 @media only screen and (max-width:824px) and (orientation:landscape) {
 
-  .bg { width: 796px;
+   .bg {width: 785px;
     padding: 15px;
     margin-top: 35px;
-    margin-left: -199px!important;
+    margin-left: -194px!important;
 }
 
 
