@@ -887,8 +887,7 @@ margin-top: 35px;    margin-left: -6px;}
 transform: translate(-111%, -90%);padding:12px;}
 
 }
-
-@media only screen and (min-width:822px) and (max-width:840px) and (orientation:landscape) {
+@media only screen and (min-width:800px) and (max-width:824px) and (orientation:landscape) {
 
 	.bg{width: 816px;
     padding: 15px;
@@ -918,5 +917,6 @@ transform: translate(-111%, -90%);padding:12px;}
     width: 346px;
 }
 }
+
 
 
