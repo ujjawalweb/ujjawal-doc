@@ -183,7 +183,9 @@ input[type=checkbox], input[type=radio] {
   margin-top: 0px;
 }
 
-.rup{color:#373636;font-size:23px;font-weight: bold;}
+.rup{color:#373636;font-size:23px;font-weight: bold;position: relative;
+    top: 0px;
+}
 .left-nav:hover{
   cursor:pointer;
   color:#298bbb;
