@@ -17,9 +17,10 @@
 
 
     <style>
-	    ::placeholder{color:#464343!important;}
-	    
-	    	
+	
+	
+
+	
 		@media only screen and (max-width:732px) and (min-width:700px) and  (orientation:landscape) {
 .card {
     max-width: 835px!important;;
@@ -31,10 +32,14 @@
     margin-left: -44px!important;
 }
 
+
+
 h3{width:730px!important;}
 	
 	}
 
+	
+	
 	a:hover{text-decoration:none;}
 	span{position: relative;
     top: 6px;
@@ -45,7 +50,7 @@ h3{width:730px!important;}
     top: -406px;
     left: 497px;
     font-size: 25px;}
-		@media only screen and (max-width: 768px) {
+		@media only screen and (max-width: 600px) {
 	.cross {
     position: relative;
     top: -406px;
@@ -53,8 +58,8 @@ h3{width:730px!important;}
     font-size: 25px;
 }
 
-
 .btn-success{width:143px!important;}
+
 
 	.card {
     max-width: 399px!important;
@@ -87,9 +92,8 @@ h3{width:400px!important;}
 
 	@media only screen and (max-width:915px) and (orientation:landscape) {
 body,html{max-width: 100%!important;}
-		
-		
-		.form-control {
+
+.form-control {
 
     height:48px!important;
     width: 48% !important;}
@@ -117,8 +121,6 @@ body,html{max-width: 100%!important;}
     left: 664px;
     font-size: 25px;
 }
-
-
 .form-popups {
     display: none;
     position: fixed!important;
@@ -184,12 +186,12 @@ h3{
     padding: 15px;
     width: 100%;
     background-color: #e8eeef;
-    color:#7f7878;
+    color: #7f7878;
     box-shadow: 0 1px 0 rgb(0 0 0 / 3%) inset;
     margin-bottom: 30px;}
 	
-	::placeholder{color:#726f6f !important;}
 	
+
 	.placeholder{    position: relative;
         top: 2px;color:#726f6f;}
         
@@ -257,7 +259,6 @@ h3{
     margin-left: -20px;
     /* top: 0px;}
 	
-	
 
 </style>
 
@@ -267,7 +268,8 @@ h3{
     <div class="header">
 <div class="bt">
 <div class="btn1" onclick="openForm()">Caseout</div>&nbsp; &nbsp; 
-<div class="btn2" onclick="openForms()">KYC</div>
+<div class="btn2" onclick="openForms()">KYC</div>&nbsp; &nbsp; 
+<div class="btn2" onclick="openFormm()">Bank</div>
 </div>
     </div>
 
@@ -362,8 +364,9 @@ h3{
               </div>
               <div class="card-body">
                 <form autocomplete="off" class="form" id="formLogin" name="formLogin" role="form">
+				<div class="buy">
                   <div class="form-group">
-               <select class="selectpicker" style="margin-top:10px;">
+               <select class="selectpicker " style="margin-top:10px;">
   <option>Select ID</option>
   <option>AADHAAR Card</option>
   <option>Driving Licence</option>
@@ -374,7 +377,7 @@ h3{
                   
 										<input autocomplete="new-password" class="form-control" id="pwd1" required="" type="text" placeholder="Enter Document Number">
                   </div>
-				  
+				  </div>
 				  
 				    <div class="form-group">
                   
@@ -392,7 +395,7 @@ h3{
     </label>
 	    &nbsp;&nbsp;
     
-     <label class="uploader">
+     <label class="uploader lod">
         <input type="file" multiple>
         <span class="icon">
             <svg viewBox="0 0 512 512" width="24" title="upload">
@@ -421,7 +424,126 @@ h3{
 		   </div>
 		   </div>
     
+<!--popup3-->
 
+
+<div class="form-popup-3" id="myFormm">
+    <div class="container bg">
+        <form>
+          <h2 class="bank">Bank Account Detail</h2>
+    
+          <div class="row">
+            <div class="col-md-12">
+     <h5>Your request is pending for Approval</h5>
+              </div>
+      
+      
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+         <h5 class="txt">You can only upload bank details after KYC is approved</h5>
+                  </div>
+          
+          
+                </div>
+
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <div class="form-group">
+                
+                <input type="text" class="form-control us" placeholder="Account Holder Name"  id="company">
+              </div>
+      
+      
+            </div>
+            <!--  col-md-6   -->
+      
+            <div class="col-md-6 col-sm-6">
+      
+              <div class="form-group">
+            
+                <input type="tel" class="form-control us" id="phone" placeholder="Account Number">
+              </div>
+            </div>
+            <!--  col-md-6   -->
+          </div>
+          <!--  row   -->
+
+
+      
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <div class="form-group">
+                
+                <input type="text" class="form-control us" placeholder="IFSC Code" id="company">
+              </div>
+      
+      
+            </div>
+            <!--  col-md-6   -->
+      
+            <div class="col-md-6 col-sm-6">
+      
+              <div class="form-group">
+            
+                <input type="text" class="form-control us" id="phone" placeholder="Bank Name">
+              </div>
+            </div>
+            <!--  col-md-6   -->
+          </div>
+          <!--  row   -->
+      
+      
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+      
+              <div class="form-group">
+               
+                <input type="text" class="form-control us" id="branch" placeholder="Branch Name">
+              </div>
+            </div>
+            <!--  col-md-6   -->
+      
+            <div class="col-md-6 col-sm-6">
+              <div class="form-group">
+               
+                <form action="#">
+                <div class="input-file-container">  
+                  <input class="input-file" id="my-file" type="file">
+                  <label tabindex="0" for="my-file" class="input-file-trigger">Select a file...</label>
+                </div>
+                <p class="file-return"></p>
+              </form>
+              </div>
+      
+            </div>
+            <!--  col-md-6   -->
+          </div>
+          <!--  row   -->
+      
+      
+     
+      
+        
+      
+      <center>
+          <button type="submit" class="btn btn-primary ">Save</button></center>
+        </form>
+
+        <div class="row">
+            <div class="col-md-12">
+     <h5 class="txt2">Please upload bank statement, cancelled cheque where account no, IFSC code and Holder name is written</h5>
+              </div>
+
+
+
+ 
+      
+            </div>
+      </div>
+
+</div>
 
 <script>
     function openForms() {
@@ -477,5 +599,44 @@ if(theEvent.preventDefault) theEvent.preventDefault();
 }
 }
 </script>
+
+
+
+<script>
+          document.querySelector("html").classList.add('js');
+
+var fileInput  = document.querySelector( ".input-file" ),  
+    button     = document.querySelector( ".input-file-trigger" ),
+    the_return = document.querySelector(".file-return");
+      
+button.addEventListener( "keydown", function( event ) {  
+    if ( event.keyCode == 13 || event.keyCode == 32 ) {  
+        fileInput.focus();  
+    }  
+});
+button.addEventListener( "click", function( event ) {
+   fileInput.focus();
+   return false;
+});  
+fileInput.addEventListener( "change", function( event ) {  
+    the_return.innerHTML = this.value;  
+});  
+      </script>
+
+
+
+
+    <script>
+function openFormm() {
+  document.getElementById("myFormm").style.display = "block";
+}
+
+function closeFormm() {
+  document.getElementById("myFormm").style.display = "none";
+}
+
+</script>
+
+
 </body>
 </html>
