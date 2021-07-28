@@ -27,7 +27,7 @@ input:focus:-ms-input-placeholder { color:transparent!important; } /* IE 10+ */
 .cursor-center{text-align:center;}
 
 ::placeholder{color:#595454 !important;font-size: 14px !important;font-weight: 500!important;position:relative;left:0px;}
-        body{overflow: hidden;font-family: 'Open Sans', sans-serif !important;}
+        body{overflow-x: hidden;font-family: 'Open Sans', sans-serif !important;}
 	.mand{    position: relative;
     top: 12px;
     left: -220px;
