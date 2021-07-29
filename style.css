@@ -708,7 +708,7 @@ body,html{max-width: 100%!important;
     left: 50%;
 	    overflow: auto;
     overflow-x: hidden;
-    
+  
     transform: translate(-48%,10%);
     margin-top: -189px;
     /* margin-left: -318px; */
@@ -993,12 +993,22 @@ transform: translate(-111%, -90%);padding:12px;}
 }
 
 @media only screen and (min-width:640px) and (max-width:731px) and  (orientation:landscape) {
+	
+	
+	.first{display: flex;}
+.first-col{width:50%;}
+	.second-col{width:50%;}
+	
+		.second{display: flex;}
+.half{width:50%;}
+	.half{width:50%;}
+	
 	.cros {
-    top: -599px!important;
-    left: 584px!important;
+    top: -365px!important;
+    left: 283px!important;
     position: absolute!important;
-    font-size: 30px!important;
-}
+    font-size: 30px!important;}
+	
 	.bg {
     width: 622px;
     padding: 15px;
@@ -1008,7 +1018,7 @@ transform: translate(-111%, -90%);padding:12px;}
 	
 	.input-file-container {
     position: relative;
-    width: 586px;
+    width: 277px;
 }
 
 .widget-container {
@@ -1025,7 +1035,7 @@ transform: translate(-111%, -90%);padding:12px;}
     width: 628px;
 }
 
-	.widget-container::-webkit-scrollbar {
+.widget-container::-webkit-scrollbar {
     display: none;
 }
 
@@ -1038,11 +1048,11 @@ transform: translate(-111%, -90%);padding:12px;}
     position: relative;
     top: -104px;
 }
+
 h1 {
     margin-left: 378px;
     margin-top: -7px;
 }
-
 .inputs {
     margin: 10px 20px 30px 20px;
     padding: 3px 20px;
@@ -1070,9 +1080,17 @@ h1{    margin-left: 378px;}
 
 @media only screen and (min-width:731px) and (max-width:751px) and  (orientation:landscape) {
 	
+		.first{display: flex;}
+.first-col{width:50%;}
+	.second-col{width:50%;}
+	
+		.second{display: flex;}
+.half{width:50%;}
+	.half{width:50%;}
+	
 	.cros {
-    top: -598px!important;
-    left: 674px !important;
+  top: -363px!important;
+    left: 317px !important;
     position: absolute !important;
     font-size: 30px !important;
 }
@@ -1121,7 +1139,7 @@ h1{    margin-left: 378px;}
 	
 	.input-file-container {
     position: relative;
-    width: 586px;
+    width: 323px;
 }
 }
 
