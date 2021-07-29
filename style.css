@@ -1073,3 +1073,15 @@ h1{    margin-left: 378px;}
     position: absolute;
     font-size: 30px;
 }
+
+
+
+@media only screen and (min-width:360px) and (max-width:375px){
+
+.cros {
+    top: -598px!important;
+    left: 312px!important;
+    position: absolute!important;
+    font-size: 30px!important;
+}
+}
