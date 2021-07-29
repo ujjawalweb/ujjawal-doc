@@ -384,7 +384,15 @@ white-space: nowrap;
     top: 16px;
     left: -178px;
 }
-
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 29%;
+    left: 41%;
+    transform: translate(-50,-50%);
+    z-index: 9;
+    border: none !important;
+}
 
 .link {
   margin-left: 249px;
