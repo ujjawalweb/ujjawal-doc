@@ -1007,14 +1007,29 @@ transform: translate(-111%, -90%);padding:12px;}
 .widget-container {
     position: absolute;
     top: 50%;
-	    overflow: auto;
     /* left: 50%; */
     left: 50%;
+	       overflow: auto;
+    overflow-x: hidden;
     transform: translate(-48%,10%);
     margin-top: -189px;
     /* margin-left: -318px; */
     background: #fff;
     width: 628px;
+}
+
+
+.rws {
+    line-height: 40px;
+    color: #565454;
+    font-size: 12px;
+    padding: 0px 6px;
+    position: relative;
+    top: -104px;
+}
+h1 {
+    margin-left: 378px;
+    margin-top: -7px;
 }
 
 .inputs {
