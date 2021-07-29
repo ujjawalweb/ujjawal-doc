@@ -444,7 +444,7 @@ left: -179px}
 }
 .nav-text{font-size: 15px;}
 .nums{position: relative;
-left: 41px;
+left: 41px;    margin-top: -3px;
 }
 
 .bannner img {
@@ -756,7 +756,10 @@ h1 {
     margin-top: 3px;
    margin-left: 480px;
 }
-.put{width:144px;}
+.put{width:144px; 
+}
+
+
 
 .inputs {
     margin: 10px 20px 30px 20px;
@@ -782,7 +785,7 @@ h1 {
     top: -93px;
 }
     .mts{position: relative;
-    top: -35px;
+    top: -42px;
     left: 39px;
 }
 .min{white-space: nowrap;
@@ -1046,7 +1049,7 @@ transform: translate(-111%, -90%);padding:12px;}
     font-size: 12px;
     padding: 0px 6px;
     position: relative;
-    top: -104px;
+    top: -112px;
 }
 
 h1 {
@@ -1075,7 +1078,8 @@ h1 {
     position: relative;
     top: -343px;
 }
-h1{    margin-left: 378px;}
+h1{    margin-left: 378px;    position: relative;
+    top: -5px;}
 }
 
 @media only screen and (min-width:731px) and (max-width:751px) and  (orientation:landscape) {
