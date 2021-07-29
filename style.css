@@ -1018,6 +1018,10 @@ transform: translate(-111%, -90%);padding:12px;}
     width: 628px;
 }
 
+	.widget-container::-webkit-scrollbar {
+    display: none;
+}
+
 
 .rws {
     line-height: 40px;
