@@ -344,6 +344,9 @@ h3 {
 
 
     <div class="form-popup" id="myForm">
+	 <div class="container">
+	 <div class="row">
+	 <div class="col-md-6">
     <div class="widget-container">
         <div class="top-nav" style="background:#ebebed; border-radius: 8px 8px 0px 0px;">
           <div class="left-nav">
@@ -357,50 +360,13 @@ h3 {
             <div class="nav-text" style="color:#535151;margin-top: -5px; ">
               Withdraw
             </div>
-          </div>
-      <div class="close-x">
-        <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-         <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#777" stroke-width="2">
-             <path d="M0,12.7279221 L12.7279221,0" id="Path"></path>
-             <path d="M0,12.7279221 L12.7279221,0" id="Path" transform="translate(6.363961, 6.363961) scale(1, -1) translate(-6.363961, -6.363961) "></path>
-         </g>
-     </g>
- </svg>
-      </div>
-    </div>
-    <h1>  Available  Balance :<span class="rup"> Rs 1.44</span></h1>     
-    <form action="#">
-      <div class="inputs">
-     
-        <input type="text"  class="put cursor-center" name="name" placeholder="Enter amount">
-    
-        
-
-        
-      </div>
-
-
-     
-
-
-       <span class="min" style="white-space: nowrap;
-       position: relative;
-       top: -13px;
-    left: 2px;
-       font-weight: 600;
-       color:#8c8989;
-       font-size: 12px;
-   ">Min 0 - Max 0</span>
-   
-   
-
-      <div class="nav-text mts">
+			 <div class="nav-text mts">
          Withdrawal methods
        </div>
 
-
-       <div class="container">
+         
+		  
+		        
            <div class="row rws">
            <div class="col-md-12"> <img src="images/py.png" width="30" class="pays" > &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;<span class="tit tak">Paytm </span> <p class="num nums">+919694039777</p><p class="para  ps">Instant Payout and paytm KYC is mandatory <span class="mand">for withdrawing</span></p> <input type="radio" class="rad"></div> 
            <div class="col-md-12 two"> <img src="images/a.png" width="30"class="amaz" > &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;<span class="tit">Amazon Pay </span> <p class="num">+919694039777<span class="edit">Edit</span></p> <p class="para">Instant Payout </p> <input type="radio" class="red"></div> 
@@ -408,11 +374,51 @@ h3 {
            <div class="col-md-12 four"> <img src="images/b.png" width="20" class="banks"> &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;<span class="tit2">Bank Account</span>   <p class="para3">Settlement may take up 3 working days </p> <span class="link lnk">Linked Account</span>  </div> 
            </div>
        </div>
+	    </div>
+		</div>
+	    </div>
+		 
+    
+		  
+
+    	 <div class="col-md-6">
+    <h2 class="bal">  Available  Balance :<span class="rup"> Rs 1.44</span></h2>     
+    <form action="#">
+  
+    
+        <input type="text"  class=" new cursor-center" name="name" placeholder="Enter amount">
+    
+     
+ <span class="max" style="white-space: nowrap;
+margin-left: -190px;
+       font-weight: 600;
+       color:#8c8989;
+       font-size: 12px;
+	   position:relative;
+	   top:40px;
+   ">Min 0 - Max 0</span>
       
-      <input class="btn_style" type="submit" value="Withdraw"> 
+
+
+     
+<button type="button" class="btn btn-secondary">Withdraw</button>
+
+
+   
+   
+
+     
+
+
+      
+  
      </form>
+	 <div class="cro">x</div>
    </div>
     </div>
+	</div>
+	</div>
+	</div>
 
 
    <!--second popups-->
@@ -651,11 +657,14 @@ h3 {
 
 <script>
     $(document).ready(function(){
-      $(".close-x").click(function(){
+      $(".cro").click(function(){
         $("#myForm").css("display", "none");
       });
     });
     </script>
+	
+	
+	
 
 <script>
     function validate(evt) {
