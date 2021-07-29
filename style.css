@@ -706,6 +706,9 @@ body,html{max-width: 100%!important;
     top: 50%;
     /* left: 50%; */
     left: 50%;
+	    overflow: auto;
+    overflow-x: hidden;
+    transform: translate
     transform: translate(-48%,10%);
     margin-top: -189px;
     /* margin-left: -318px; */
@@ -713,6 +716,10 @@ body,html{max-width: 100%!important;
     width:795px;
     height: 408px;
     box-shadow: 0px 0px 40px #a3bbc3;
+}
+
+.widget-container::-webkit-scrollbar {
+    display: none;
 }
 .four {
     margin-top: -77px;
