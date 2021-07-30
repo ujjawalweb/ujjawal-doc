@@ -682,7 +682,7 @@ z-index: -1;}
   .form-popup {
     display: none;
     position: fixed!important;
-    top: 45%!important;
+    top: 54%!important;
     left: 48%!important;
     transform: translate(-50,-50%);
     border: 3px solid #f1f1f1;
@@ -828,7 +828,7 @@ h1 {
 	.form-popup {
     display: none;
     position: fixed!important;
-    top: 50%!important;
+    top: 54%!important;
     left: 49%!important;
     transform: translate(-50,-50%);
     z-index: 9;
@@ -869,7 +869,7 @@ h1 {
 	.form-popup {
     display: none;
     position: fixed!important;
-    top: 38%!important;
+    top: 50%!important;
     left: 24%!important;
     transform: translate(-50,-50%);
     z-index: 9;
@@ -932,7 +932,7 @@ body,html{max-width: 100%!important;
 .form-popup {
     display: none;
     position: fixed;
-    top: 40%;
+    top: 51%;
     left: 1%;
     transform: translate(-50,-50%);
     z-index: 9;
