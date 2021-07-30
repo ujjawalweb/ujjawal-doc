@@ -273,9 +273,7 @@ white-space: nowrap;
   background:#fff;
   height:50px;
   width:100%;
-  position:sticky;
-  top:0;
-  left:0;
+
   display:inline-block;
   border-bottom:1px solid #f1f1f1;
 }
@@ -619,7 +617,15 @@ left: -25px!important;}
 @media only screen and (max-width:710px)and (min-width:610px)  and (orientation:landscape) {
 	
 	
-	.top-nav{position:sticky;left:0;top:0;}
+.top-nav {
+    background: #fff;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-bottom: 1px solid #f1f1f1;}
 .bal {
  
     font-size: 17px!important;
@@ -810,6 +816,15 @@ h1 {
 
 @media only screen and (min-width:710px) and (max-width:731px) and (orientation:landscape) {
 	
+	.top-nav {
+    background: #fff;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-bottom: 1px solid #f1f1f1;}
 	.form-popup {
     display: none;
     position: fixed!important;
@@ -836,6 +851,16 @@ h1 {
 
 
 @media only screen and (min-width:731px) and (max-width:751px) and (orientation:landscape) {
+	
+	.top-nav {
+    background: #fff;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-bottom: 1px solid #f1f1f1;}
 	.cro {
     font-size: 27px!important;
     margin-top: -187px!important;
@@ -869,6 +894,17 @@ h1 {
 @media only screen and (max-width:824px) and (orientation:landscape) {
 body,html{max-width: 100%!important;
   }
+  
+  
+  .top-nav {
+    background: #fff;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-bottom: 1px solid #f1f1f1;}
 
 .bal {
        
@@ -1153,6 +1189,15 @@ h5{padding: 16px;
     position: relative;
     left: 49px;
 }
+.top-nav {
+    background: #fff;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-bottom: 1px solid #f1f1f1;}
 }
 
 
@@ -1181,6 +1226,15 @@ transform: translate(-111%, -90%);padding:12px;}
 
 @media only screen and (max-width:824px) and (orientation:landscape) {
 
+.top-nav {
+    background: #fff;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-bottom: 1px solid #f1f1f1;}
 .cros {
     top: -360px!important;
     left: 353px!important;
@@ -1216,7 +1270,15 @@ transform: translate(-111%, -90%);padding:12px;}
 }
 
 @media only screen and (min-width:640px) and (max-width:731px) and  (orientation:landscape) {
-	
+	.top-nav {
+    background: #fff;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-bottom: 1px solid #f1f1f1;}
 	
 	.first{display: flex;}
 .first-col{width:50%;}
@@ -1325,6 +1387,16 @@ h1{    margin-left: 378px;}
 .half{width:50%;}
 	.half{width:50%;}
 	
+	.top-nav {
+    background: #fff;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-bottom: 1px solid #f1f1f1;}
+	
 	.cros {
   top: -363px!important;
     left: 317px !important;
@@ -1396,6 +1468,7 @@ h1{    margin-left: 378px;}
     font-size: 30px!important;
 }
 }
+
 
 
 .bal{margin-left: -53px;
