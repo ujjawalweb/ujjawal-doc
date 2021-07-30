@@ -17,6 +17,8 @@
 
 
     <style>
+	
+	h5{font-size:16px;color:#6b757c;}
 	.btn-success:hover{background-color: #cf9e41!important;border:1px solid #cf9e41!important;outline:none !important;}
 	.btn-success:focus{background-color: #cf9e41!important;border:1px solid #cf9e41!important;outline:none !important;}
 	::placeholder{letter-spacing:0px !important;color:#7f7878!important;font-size:16px!important;}
@@ -263,12 +265,12 @@ h3 {
 	 .btn-success{padding: 19px 39px 18px 39px;
     color: #FFF;
     margin-top: -20px;
-    background-color: #cf9e41;
+    background-color:#4CC4FF;
     font-size: 18px;
     text-align: center;
     font-style: normal;
     border-radius: 5px;
-    border: 1px solid #cf9e41;
+    border: 1px solid #4CC4FF;
     border-width: 1px 1px 3px;
     box-shadow: 0 -1px 0 rgb(255 255 255 / 10%) inset;
     margin-bottom: 10px;
@@ -349,7 +351,12 @@ h3 {
 	 <div class="col-md-6 tran">
     <div class="widget-container">
 
-        <div class="top-nav" style="background:#ebebed; border-radius: 8px 8px 0px 0px;">
+        <div class="top-nav" style="background:#ebebed; border-radius: 8px 8px 0px 0px;    background: #ebebed;
+    position: sticky;
+    border-radius: 8px 8px 0px 0px;
+    top: 0;
+    left: 0;
+">
           <div class="left-nav">
             <div class="back-arrow">
               <svg width="10px" height="17px" viewBox="0 0 10 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -506,18 +513,17 @@ margin-left: -190px;
 <div class="form-popup-3" id="myFormm">
     <div class="container bg">
         <form>
+		
           <h2 class="bank">Bank Account Detail</h2>
     
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
      <h5>Your request is pending for Approval</h5>
               </div>
       
       
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
+          
+                <div class="col-md-6">
          <h5 class="txt">You can only upload bank details after KYC is approved</h5>
                   </div>
           
@@ -591,7 +597,8 @@ margin-left: -190px;
                 </div>
                 <p class="file-return"></p>
               </form>
-			  <a href=""><div class="cros">x</div></a>
+			  <a href=""><div class="cros" style="position:relative;    top: -384px;
+    left: 312px;">x</div></a>
               </div>
       
             </div>
@@ -719,7 +726,6 @@ function closeFormm() {
 }
 
 </script>
-
 
 </body>
 </html>
