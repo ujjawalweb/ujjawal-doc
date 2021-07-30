@@ -175,7 +175,7 @@ input[type=checkbox], input[type=radio] {
        .mts {
     position: relative;
     top: 40px;
-    left: -216px;
+    left: 16px;
 }
 
 
@@ -214,7 +214,7 @@ input[type=checkbox], input[type=radio] {
 }
 .back-arrow:hover polyline{
 }
-.nav-text {    margin-top: 20px;
+.nav-text {    margin-top:-41px;
   display:inline;
   float:left;
   padding-top:19px;
@@ -273,6 +273,9 @@ white-space: nowrap;
   background:#fff;
   height:50px;
   width:100%;
+  position:sticky;
+  top:0;
+  left:0;
   display:inline-block;
   border-bottom:1px solid #f1f1f1;
 }
@@ -614,6 +617,9 @@ left: -25px!important;}
 }
 
 @media only screen and (max-width:710px)and (min-width:610px)  and (orientation:landscape) {
+	
+	
+	.top-nav{position:sticky;left:0;top:0;}
 .bal {
  
     font-size: 17px!important;
@@ -646,10 +652,10 @@ margin-left: 156px!important;}
 border: none;}
 
 .mts {
-    position: relative!important;
-    top: 66px!important;
-    left: -240px!important;
-}
+       position: relative!important;
+    top: 9px!important;
+    left: 16px!important;
+z-index: -1;}
 
 .btn-secondary {
     position: relative!important;
@@ -677,15 +683,16 @@ border: none;}
     z-index: 9;
 }
 .tak {
-    margin-left: -475px!important;
+       margin-left: -217px!important;
     position: relative !important;
-    top: -3px !important;}
+    top: 5px !important;
+}
 
 
     .pays {
         position: relative;
         top: 16px;
-           left: -451px!important;}
+           left: -195px!important;}
 
 
   .widget-container {
@@ -722,7 +729,7 @@ border: none;}
     font-size: 12px;
     padding: 0px 6px;
     position: relative!important;
-    top: -61px;left:25px!important;
+    top: 34px!important;left:25px!important;
 }
 
 h1 {
@@ -900,15 +907,15 @@ border: none !important;}
 }
 
 .tak {
-    margin-left: -475px!important;
-    position: relative !important;
-    top: -3px !important;}
+    margin-left: -219px;
+    position: relative ;
+    top: -3px ;}
 
 
    .pays {
-    position: relative;
-    top: 16px;
-    left: -454px;
+    position: relative!important;
+    top: 16px!important;
+    left: -195px!important;
 }
 
 
@@ -991,14 +998,15 @@ h1 {
     font-size: 12px;
     padding: 0px 6px;
       position: relative;
-    top: 107px;
+    top:43px;
     left: 38px;
 
 }
 .mts {
-    position: relative;
-    top: 65px;
-    left: -228px;
+   top: 11px;
+    left: 31px;
+    z-index: -1;
+
 }
 .min{white-space: nowrap;
     position: relative!important;
@@ -1235,6 +1243,16 @@ transform: translate(-111%, -90%);padding:12px;}
     position: relative;
     width: 277px;
 }
+.mts{position: relative;
+    top: 9px;
+    left: 28px;
+z-index: -1;}
+
+.pays {
+    position: relative;
+    top: 16px;
+left: -197px;}
+
 
 .widget-container {
     position: absolute;
@@ -1265,7 +1283,7 @@ transform: translate(-111%, -90%);padding:12px;}
     font-size: 12px;
     padding: 0px 6px;
        position: relative;
-    top: 98px;
+    top:34px;
 }
 
 h1 {
