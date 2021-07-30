@@ -806,7 +806,7 @@ h1 {
 	.form-popup {
     display: none;
     position: fixed!important;
-    top: 40%!important;
+    top: 50%!important;
     left: 49%!important;
     transform: translate(-50,-50%);
     z-index: 9;
