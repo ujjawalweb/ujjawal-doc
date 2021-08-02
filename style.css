@@ -1538,6 +1538,10 @@ transform: translate(-111%, -90%);padding:12px;}
     height: 40px;
     margin-top: 3px;
 }
+	
+	.bal{position: relative !important;
+    left: -15px !important;
+}
 
 	.top-nav {
     background: #fff;
