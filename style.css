@@ -397,6 +397,7 @@ white-space: nowrap;
     display: none;
 }
 
+	.two {    margin-top: -95px;}
 	#crd {
     max-width: 347px!important;
     margin: 0px auto;
