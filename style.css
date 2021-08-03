@@ -12,18 +12,21 @@
   text-align:center;
   border: none;
   float: none;
-  border-bottom: 1px solid #242428;
+border:1px solid grey;
   font-family: 'Raleway', sans-serif;
   background-color:transparent;
 	}
+	
+	
 
 .simple-tb:hover {
 		background-color:white;
-		
+		border:1px solid #000!important;
 		color:black;
-		width:250px;
+		width:200px;
 		height:35px;
 	}
+
 	
 	.btn-sub{background:#4CC4FF;color:#fff;    width: 87px;
     height: 34px;
@@ -437,6 +440,8 @@ white-space: nowrap;
 	.rws::-webkit-scrollbar {
     display: none;
 }
+
+.simple-tb:focus{outline:none!important;}
 
 .two {    margin-top: -95px;}
 
@@ -923,7 +928,7 @@ left: -25px!important;}
 
 @media only screen and (max-width:710px)and (min-width:610px)  and (orientation:landscape) {
 	
-	
+	.simple-tb:focus{outline:none!important;}
 .top-nav {
     background: #fff;
     height: 50px;
@@ -1122,7 +1127,7 @@ h1 {
 
 
 @media only screen and (min-width:710px) and (max-width:731px) and (orientation:landscape) {
-	
+	.simple-tb:focus{outline:none!important;}
 	.top-nav {
     background: #fff;
     height: 50px;
@@ -1159,7 +1164,7 @@ h1 {
 
 @media only screen and (min-width:731px) and (max-width:751px) and (orientation:landscape) {
 	
-	
+	.simple-tb:focus{outline:none!important;}
 	
 	.top-nav {
     background: #fff;
@@ -1203,6 +1208,7 @@ h1 {
 @media only screen and (max-width:824px) and (orientation:landscape) {
 body,html{max-width: 100%!important;    overflow-y: scroll;
   }
+  .simple-tb:focus{outline:none!important;}
   
   .flx{display:flex;}
   
