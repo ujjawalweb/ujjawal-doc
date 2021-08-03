@@ -591,6 +591,21 @@ position: relative;
 	
 }
 
+
+@media only screen and (min-width:400px) and (max-width: 420px){
+#my-btn {
+    margin-top: -48px!important;
+    width: 304px!important;
+    margin-left: 9px;
+}
+#cross {
+    position: relative!important;
+    top: 0px;
+    left: 21px!important;
+}
+
+}
+
 @media only screen and (max-width:600px) {
 	
 	.modal-content {
