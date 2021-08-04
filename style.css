@@ -11,26 +11,19 @@
 	width:230px;
 	height:35px;
 	
-  transition-property:background-color,border-radius,width,height,color;
-  transition-duration:0.215s;
-  transition-delay: 0.215s;
-  text-align:center;
+text-align:center;
+
   border: none;
-  float: none;
+
 border:1px solid grey;
   font-family: 'Raleway', sans-serif;
-  background-color:transparent;
-	}
-	
-	
 
-.simple-tb:hover {
-		background-color:white;
-		border:1px solid #000!important;
-		color:black;
-		width:230px;
-		height:35px;
 	}
+	
+	input, select, textarea{
+    color: #000!important;
+}
+
 
 	
 	.btn-sub{background:#4CC4FF;color:#fff;    width: 87px;
