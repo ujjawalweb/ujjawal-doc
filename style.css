@@ -1,6 +1,10 @@
 
         *{margin:0;padding: 0;}
  ::placeholder{color:#000!important;}
+
+   #myTextBoxResults {background:transparent;}
+   #myTextBoxResult {background:transparent;}
+   #myTextBoxResultss {background:transparent;}
  
       .simple-tb {
   color: white;
