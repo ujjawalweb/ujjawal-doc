@@ -863,8 +863,8 @@ margin-left: -190px;
 
 	$(document).ready(function(){
 	  $(".btn-sub").click(function(){
-		$(".rws,.mts").show();
-	
+		$(".rws,.mts").hide();
+	$(".rws,.mts").show();
 	  });
 
 
@@ -875,7 +875,23 @@ margin-left: -190px;
 	}
 	</script>
 	
+		<script>
+ if (window.matchMedia('(min-width: 360px) and (max-width:600px)').matches) { 
 	
+
+	$(document).ready(function(){
+	  $(".link").click(function(){
+		$(".rws,.mts").hide();
+
+	  });
+
+
+  
+	
+	});
+	
+	}
+	</script>
 
 
 <script>
@@ -1094,7 +1110,18 @@ document.getElementById("myTextBoxResultss").value=st;
 	</script>
 	
 
+			<script>
+	$(document).ready(function(){
+	  $(".btn-sub").click(function(){
+		$("#show-cont2").hide();
 	
+	  });
+
+
+  
+	
+	});
+	</script>
 
 
 </body>
