@@ -1173,7 +1173,6 @@ h1 {
 
 @media only screen and (min-width:731px) and (max-width:751px) and (orientation:landscape) {
 	
-	
 
 	
 	.simple-tb:focus{outline:none!important;}
@@ -1189,9 +1188,10 @@ h1 {
     border-bottom: 1px solid #f1f1f1;}
 	.cro {
     font-size: 27px!important;
-    margin-top: -187px!important;
-    margin-left: 202px!important;
+  
+       margin-left: 609px!important;
 }
+
 	.form-popup {
     display: none;
     position: fixed!important;
@@ -1607,6 +1607,12 @@ transform: translate(-111%, -90%);padding:12px;}
     margin-top: 3px;
 }
 
+.cro {
+    font-size: 27px;
+    margin-top: -34px;
+  
+}
+
 
 .top-nav {
     background: #fff;
@@ -1961,4 +1967,3 @@ background: #4CC4FF;
     margin-top: -187px;
     margin-left: 240px;
 }
-
