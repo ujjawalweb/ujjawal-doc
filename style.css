@@ -1,5 +1,6 @@
 
         *{margin:0;padding: 0;}
+ ::placeholder{color:#000!important;}
  
       .simple-tb {
   color: white;
@@ -39,6 +40,8 @@ border:1px solid grey;
     top: 50%;
     left: 50%;
     transform: translate(-35%, 28%);}
+	
+	.model-content:hover{color:#000;}
 	
 	.modal-header .close {    opacity: 1;color:grey;
     margin-top: -3px;
@@ -1499,7 +1502,6 @@ h5{padding: 16px;
 }
 
 
-
 .form-popup-3 {
     display: none;
     position: fixed;
@@ -1575,6 +1577,8 @@ transform: translate(-111%, -90%);padding:12px;}
     height: 40px;
     margin-top: 3px;
 }
+
+
 .top-nav {
     background: #fff;
     height: 50px;
@@ -1828,6 +1832,67 @@ h1{    margin-left: 378px;}
 
 
 @media only screen and (min-width:360px) and (max-width:590px){
+
+.tit2 {
+    font-weight: 600!important;
+    color: #373636!important;
+    margin-left: -20px;
+    position: relative;
+    top: -20px;
+    font-size: 13px;
+}
+
+.para3 {
+    font-size: 9px;
+    font-weight: 500;
+    color: #535151;
+    position: relative;
+    top: -127px;
+    left: 42px;
+}
+
+#l1 {
+    position: relative!important;
+    top: -212px!important;
+}
+.four {
+    margin-top: -123px;
+    line-height: 63px;
+}
+.rox{    position: relative;
+    top: -139px;
+    visibility: hidden;
+    left: 253px;
+}
+
+.rox2{position: relative;
+    top: -268px;
+    visibility: hidden;
+left: 249px;}
+
+   #myTextBoxResults {border: none;
+    position: relative!important;
+    top: -48px!important;
+    left: 44px!important;
+    background: transparent;
+}
+
+.five {
+    position: relative!important;
+    top: -241px!important;
+}
+#paras {
+    position: relative;
+    top: -43px;
+}
+
+.rox3{    position: relative;
+    top: -140px;
+    visibility: hidden;
+    left: 251px;
+}
+
+
 
 .cros {
     top: -598px!important;
