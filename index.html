@@ -17,7 +17,51 @@
 
 
     <style>
+	.sus {
+    position: relative!important;
+    top: 0px!important;}
 	
+	
+	.subs{    position: relative!important;
+    top: 1px!important;
+}
+	@media only screen and (min-width:700px) and (max-width:720px){
+	.simple-tb {
+    color: white;
+    width: 210px;}
+	
+	
+	
+	}
+	
+	@media only screen and (min-width:360px) and (max-width:590px){
+	
+	#show-cont {
+    display: none;
+    position: relative!important;
+    margin-left: 99px!important;
+    top: -46px!important;
+	left:-117px;
+   
+}
+
+#show-cont2 {
+    display: none;
+    margin-left: 100px!important;
+    margin-top: -46px!important;
+    position: relative!important;
+    left: -118px!important;
+}
+
+#show-cont3 {
+    display: none;
+    margin-left: 100px!important;
+    margin-top: -46px!important;
+    position: relative!important;
+    left: -118px!important;
+}
+}
+
 	.cro {
     font-size: 27px;
     margin-top: -34px;
@@ -30,8 +74,22 @@
 	
 		#show-cont2{display:none;   
     margin-left: -357px;
-    margin-top: -46px;
+    margin-top: -46px;line-height: 45px!important;
 }
+
+		#show-cont3{display:none;   
+    margin-left: -357px;
+    margin-top: -46px;line-height: 10px!important;
+}
+
+
+    #sec-btn{position: relative;
+    top: -42px;
+    line-height: 10px;}
+	
+	#cancle{position: relative!important;
+    top: -42px!important;
+    line-height: 10px!important;}
 
 		#show-cont3{display:none;   
     margin-left: -357px;
@@ -405,9 +463,9 @@ h3 {
            <div class="row rws">
            <div class="col-md-12"> <img src="images/py.png" width="30" class="pays" > &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;<span class="tit tak">Paytm </span> <p class="num nums">+919694039777</p><p class="para  ps">Instant Payout and paytm KYC is mandatory <span class="mand">for withdrawing</span></p> <input type="radio" class="rad"></div> 
            <div class="col-md-12 two"> <img src="images/a.png" width="30"class="amaz" > &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;<span class="tit">Amazon Pay </span> <p class="num">+919694039777<span class="edit">Edit</span></p> <p class="para">Instant Payout </p> <input type="radio" class="red"></div> 
-           <div class="col-md-12 three"> <img src="images/u.png" width="30" class="up" > &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;<span class="tit2">UPI </span> <input type="text" id="myTextBoxResult" value="" style="border:none;position:relative;top:11px;left:-28px;"> <p class="para2">Settlement may take up 3 working days </p> <span class="link" id="one">Linked Account</span> <input type="radio" class="rox" checked style="position:relative;top:-100px;visibility:hidden;"> </div> 
-           <div class="col-md-12 four"> <img src="images/b.png" width="20" class="banks"> &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;<span class="tit2">Bank Account</span>  <input type="text" id="myTextBoxResults" value="" style="border:none;position:relative;top:11px;left:-92px;"> <p class="para3">Settlement may take up 3 working days </p> <span class="link lnk" id="l1" data-toggle="modal" data-target="#exampleModalLong">Linked Account</span> <input type="radio" class="rox2" checked  style="position:relative;top:-100px;visibility:hidden;">  </div> 
-		              <div class="col-md-12 five" id="fav"> <img src="images/b.png" width="20" class="banks"> &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;<span class="tit2">Bank XYZ</span> <input type="text" id="myTextBoxResultss" value="" style="border:none;position:relative;top:11px;left:-68px;">  <p class="para3" id="paras">Settlement may take up 3 working days </p> <span class="link lnk" id="l2" data-toggle="modal" data-target="#exampleModalLongs">Linked Account</span><input type="radio" class="rox3" checked style="position:relative;top:-100px;visibility:hidden;left:21px;">   </div> 
+           <div class="col-md-12 three"> <img src="images/u.png" width="30" class="up" > &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;<span class="tit2">UPI </span> <p class="para2">Settlement may take up 3 working days </p> <span class="link" id="one">Linked Account</span> </div> 
+           <div class="col-md-12 four"> <img src="images/b.png" width="20" class="banks"> &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;<span class="tit2">Bank Account</span>  <p class="para3">Settlement may take up 3 working days </p> <span class="link lnk" id="l1" data-toggle="modal" data-target="#exampleModalLong">Linked Account</span>   </div> 
+		              <div class="col-md-12 five" id="fav"> <img src="images/b.png" width="20" class="banks"> &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;<span class="tit2">Bank XYZ</span>   <p class="para3" id="paras">Settlement may take up 3 working days </p> <span class="link lnk" id="l2" data-toggle="modal" data-target="#exampleModalLongs">Linked Account</span>  </div> 
            </div>
        
 		</div>
@@ -460,8 +518,8 @@ margin-left: -190px;
       
      <br>
 	  <center>
-      <button type="button" class="btn-sub" id="sec-btn" onClick="getTextBoxValues();" >Submit</button>&nbsp;
-        <button type="button" class="btn-sub">Cancel</button></center>
+      <button type="button" class="btn-sub subs" id="sec-btn" onClick="getTextBoxValues();" >Submit</button>&nbsp;
+        <button type="button" class="btn-sub" >Cancel</button></center>
 
 
 
@@ -471,13 +529,13 @@ margin-left: -190px;
 	 	 <div id="show-cont2">
 
 	     
-      <center><input type="number" id="myTextBoxes" class="simple-tb" placeholder="Account number"></center><br>
-          <center><input type="number" id="myTextBoxes" class="simple-tb" placeholder="Re-enter Account number"></center><br>
+      <center><input type="number" id="myTextBoxes" class="simple-tb" placeholder="Account number"></center>
+          <center><input type="number" id="myTextBoxes" class="simple-tb" placeholder="Re-enter Account number"></center>
 		      <center><input type="text" id="myTextBoxes" class="simple-tb" placeholder="IFSC Code"></center>
      <br>
 	  <center>
       <button type="button" class="btn-sub" id="sec-btn" onClick="getTextBoxValues();" >Submit</button>&nbsp;
-        <button type="button" class="btn-sub">Cancel</button></center>
+        <button type="button" class="btn-sub" id="cancle">Cancel</button></center>
 
 
 
@@ -493,7 +551,7 @@ margin-left: -190px;
 		      <center><input type="text" id="myTextBoxes" class="simple-tb" placeholder="IFSC Code"></center>
      <br>
 	  <center>
-      <button type="button" class="btn-sub" id="sec-btn" onClick="getTextBoxValues();" >Submit</button>&nbsp;
+      <button type="button" class="btn-sub sus" id="sec-btn" onClick="getTextBoxValues();" >Submit</button>&nbsp;
         <button type="button" class="btn-sub">Cancel</button></center>
 
 
@@ -734,7 +792,23 @@ margin-left: -190px;
   </div>
 </div>
 
+	<script>
+	if (window.matchMedia('(min-width:360px)and(max-width:380px)').matches) {
+	
 
+	$(document).ready(function(){
+	  $("#one").click(function(){
+		$(".rws").hide();
+	
+	  });
+
+
+  
+	
+	});
+	
+	}
+	</script>
 
 
 
@@ -910,5 +984,45 @@ document.getElementById("myTextBoxResultss").value=st;
 	</script>
 	
 	
+
+	<script>
+	$(document).ready(function(){
+	  $("#cancle").click(function(){
+		$("#show-cont2").hide();
+	$(".ujjawal").show();
+	  });
+
+
+  
+	
+	});
+	</script>
+	
+	
+		<script>
+	$(document).ready(function(){
+	  $(".btn-sub").click(function(){
+		$("#show-cont").hide();
+	$(".ujjawal").show();
+	  });
+
+
+  
+	
+	});
+	</script>
+	
+			<script>
+	$(document).ready(function(){
+	  $(".btn-sub").click(function(){
+		$("#show-cont3").hide();
+	$(".ujjawal").show();
+	  });
+
+
+  
+	
+	});
+	</script>
 </body>
 </html>
