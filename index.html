@@ -17,6 +17,27 @@
 
 
     <style>
+	
+	.cro {
+    font-size: 27px;
+    margin-top: -34px;
+    margin-left: 711px;
+}
+.fir{display:none;  position:relative!important; 
+   margin-left: -350px!important;
+   top: -46px!important;
+}
+	
+		#show-cont2{display:none;   
+    margin-left: -357px;
+    margin-top: -46px;
+}
+
+		#show-cont3{display:none;   
+    margin-left: -357px;
+    margin-top: -46px;
+}
+
 	.blue{visibility:hidden;}
 .blues{visibility:hidden;}
 .bluess{visibility:hidden;}
@@ -369,6 +390,7 @@ h3 {
             </div>
             <div class="nav-text" id="with" style="color:#535151;margin-top: -5px;">
               Withdraw
+			  <div class="cro" id="cross">x</div>
             </div>
 			
 
@@ -383,7 +405,7 @@ h3 {
            <div class="row rws">
            <div class="col-md-12"> <img src="images/py.png" width="30" class="pays" > &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;<span class="tit tak">Paytm </span> <p class="num nums">+919694039777</p><p class="para  ps">Instant Payout and paytm KYC is mandatory <span class="mand">for withdrawing</span></p> <input type="radio" class="rad"></div> 
            <div class="col-md-12 two"> <img src="images/a.png" width="30"class="amaz" > &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;<span class="tit">Amazon Pay </span> <p class="num">+919694039777<span class="edit">Edit</span></p> <p class="para">Instant Payout </p> <input type="radio" class="red"></div> 
-           <div class="col-md-12 three"> <img src="images/u.png" width="30" class="up" > &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;<span class="tit2">UPI </span> <input type="text" id="myTextBoxResult" value="" style="border:none;position:relative;top:11px;left:-28px;"> <p class="para2">Settlement may take up 3 working days </p> <span class="link" id="one" data-toggle="modal" data-target="#exampleModal">Linked Account</span> <input type="radio" class="rox" checked style="position:relative;top:-100px;visibility:hidden;"> </div> 
+           <div class="col-md-12 three"> <img src="images/u.png" width="30" class="up" > &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;<span class="tit2">UPI </span> <input type="text" id="myTextBoxResult" value="" style="border:none;position:relative;top:11px;left:-28px;"> <p class="para2">Settlement may take up 3 working days </p> <span class="link" id="one">Linked Account</span> <input type="radio" class="rox" checked style="position:relative;top:-100px;visibility:hidden;"> </div> 
            <div class="col-md-12 four"> <img src="images/b.png" width="20" class="banks"> &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;<span class="tit2">Bank Account</span>  <input type="text" id="myTextBoxResults" value="" style="border:none;position:relative;top:11px;left:-92px;"> <p class="para3">Settlement may take up 3 working days </p> <span class="link lnk" id="l1" data-toggle="modal" data-target="#exampleModalLong">Linked Account</span> <input type="radio" class="rox2" checked  style="position:relative;top:-100px;visibility:hidden;">  </div> 
 		              <div class="col-md-12 five" id="fav"> <img src="images/b.png" width="20" class="banks"> &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;<span class="tit2">Bank XYZ</span> <input type="text" id="myTextBoxResultss" value="" style="border:none;position:relative;top:11px;left:-68px;">  <p class="para3" id="paras">Settlement may take up 3 working days </p> <span class="link lnk" id="l2" data-toggle="modal" data-target="#exampleModalLongs">Linked Account</span><input type="radio" class="rox3" checked style="position:relative;top:-100px;visibility:hidden;left:21px;">   </div> 
            </div>
@@ -396,6 +418,7 @@ h3 {
 		  
 
     	 <div class="col-md-6  avab">
+		 <div class="ujjawal">
     <h2 class="bal  bals">  Available  Balance :<span class="rup">1000.00</span></h2>     
     <form action="#">
   
@@ -427,7 +450,56 @@ margin-left: -190px;
       
   
      </form>
-	 <div class="cro" id="cross">x</div>
+	 
+	 </div>
+	 
+	 	 <div id="show-cont" class="fir">
+
+	     
+      <center><input type="text" id="myTextBoxes" class="simple-tb" placeholder="Phone number"></center>
+      
+     <br>
+	  <center>
+      <button type="button" class="btn-sub" id="sec-btn" onClick="getTextBoxValues();" >Submit</button>&nbsp;
+        <button type="button" class="btn-sub">Cancel</button></center>
+
+
+
+</div>
+
+
+	 	 <div id="show-cont2">
+
+	     
+      <center><input type="number" id="myTextBoxes" class="simple-tb" placeholder="Account number"></center><br>
+          <center><input type="number" id="myTextBoxes" class="simple-tb" placeholder="Re-enter Account number"></center><br>
+		      <center><input type="text" id="myTextBoxes" class="simple-tb" placeholder="IFSC Code"></center>
+     <br>
+	  <center>
+      <button type="button" class="btn-sub" id="sec-btn" onClick="getTextBoxValues();" >Submit</button>&nbsp;
+        <button type="button" class="btn-sub">Cancel</button></center>
+
+
+
+</div>
+	 
+	 
+	 
+	 	 	 <div id="show-cont3">
+
+	     
+      <center><input type="number" id="myTextBoxes" class="simple-tb" placeholder="Account number"></center><br>
+          <center><input type="number" id="myTextBoxes" class="simple-tb" placeholder="Re-enter Account number"></center><br>
+		      <center><input type="text" id="myTextBoxes" class="simple-tb" placeholder="IFSC Code"></center>
+     <br>
+	  <center>
+      <button type="button" class="btn-sub" id="sec-btn" onClick="getTextBoxValues();" >Submit</button>&nbsp;
+        <button type="button" class="btn-sub">Cancel</button></center>
+
+
+
+</div>
+
    </div>
     </div>
 	</div>
@@ -651,7 +723,7 @@ margin-left: -190px;
         </button>
       </div>
       <div class="modal-body">
-      <center><input type="number" id="myTextBox" class="simple-tb" placeholder="Phone number"></center>
+      <center><input type="text" id="myTextBox" class="simple-tb" placeholder="Phone number"></center>
       </div>
       <div class="modal-footer">
 	  <center>
@@ -665,50 +737,7 @@ margin-left: -190px;
 
 
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-      
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <center><input type="number" id="myTextBoxes" class="simple-tb" placeholder="Phone number"></center>
-      </div>
-      <div class="modal-footer">
-	  <center>
-      <button type="button" class="btn-sub" id="sec-btn" onClick="getTextBoxValues();" >Submit</button>&nbsp;
-        <button type="button" class="btn-sub">Cancel</button></center>
-      </div>
-    </div>
-  </div>
-</div>
 
-
-
-<div class="modal fade" id="exampleModalLongs" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-      
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <center><input type="number" id="myTextBoxess" class="simple-tb" placeholder="Phone number"></center>
-      </div>
-      <div class="modal-footer">
-	  <center>
-      <button type="button" class="btn-sub" id="third-btn" onClick="getTextBoxValuess();" >Submit</button>&nbsp;
-        <button type="button" class="btn-sub">Cancel</button></center>
-      </div>
-    </div>
-  </div>
-</div>
 
 <script>
     function openForms() {
@@ -837,103 +866,49 @@ document.getElementById("myTextBoxResultss").value=st;
 }
 </script>
 
-<script>
-$(document).ready(function(){
-  $(".btn-sub").click(function(){
-    $("#one").addClass("blue");
-
-  });
-});
-</script>
-
 
 <script>
-$(document).ready(function(){
-  $(".btn-sub").click(function(){
-    $(".rox").css({"visibility": "visible", "position": "relative", "left": "-65px","top": "-95px"});
-  });
-});
-</script>
+	$(document).ready(function(){
+	  $("#one").click(function(){
+		$(".ujjawal,#show-cont2,#show-cont3").hide();
+	$("#show-cont").show();
+	  });
 
-<script>
-$(document).ready(function(){
-  $("#sec-btn").click(function(){
-    $("#l1").addClass("blues");
 
-  });
-});
-</script>
+  
+	
+	});
+	</script>
+
+
 
 
 <script>
-$(document).ready(function(){
-  $("#sec-btn").click(function(){
-    $(".rox2").css({"visibility": "visible", "position": "relative", "left": "-65px","top": "-95px"});
-  });
-});
-</script>
+	$(document).ready(function(){
+	  $("#l1").click(function(){
+		$(".ujjawal,#show-cont,#show-cont2,#show-cont3").hide();
+	$("#show-cont2").show();
+	  });
 
 
-<script>
-$(document).ready(function(){
-  $("#third-btn").click(function(){
-    $("#l2").addClass("bluess");
+  
+	
+	});
+	</script>
+	
+	<script>
+	$(document).ready(function(){
+	  $("#l2").click(function(){
+		$(".ujjawal,#show-cont2,#show-cont,#show-cont3").hide();
+	$("#show-cont3").show();
+	  });
 
-  });
-});
-</script>
 
-
-<script>
-$(document).ready(function(){
-  $("#third-btn").click(function(){
-    $(".rox3").css({"visibility": "visible", "position": "relative", "left": "-65px","top": "-95px"});
-  });
-});
-</script>
-
-<script>
-
-  if (window.matchMedia('(min-width: 360px)and (max-width: 590px)').matches) {
- 
- $(document).ready(function(){
-  $(".btn-sub").click(function(){
-    $(".rox").css({"visibility": "visible", "position": "relative", "left": "253px","top": "-139px"});
-  });
-});
-
- }
- 
- </script>
- 
- 
- <script>
-
-  if (window.matchMedia('(min-width: 360px)and (max-width: 590px)').matches) {
- 
- $(document).ready(function(){
-  $("#sec-btn").click(function(){
-    $(".rox2").css({"visibility": "visible", "position": "relative", "left": "253px","top": "-267px"});
-  });
-});
-
- }
- 
- </script>
- 
- <script>
-
-  if (window.matchMedia('(min-width: 360px)and (max-width: 590px)').matches) {
- 
- $(document).ready(function(){
-  $("#third-btn").click(function(){
-    $(".rox3").css({"visibility": "visible", "position": "relative", "left": "253px","top": "-139px"});
-  });
-});
-
- }
- 
- </script>
-
+  
+	
+	});
+	</script>
+	
+	
 </body>
 </html>
