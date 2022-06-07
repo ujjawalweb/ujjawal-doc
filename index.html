@@ -1,6 +1,99 @@
 
 https://shtheme.com/demosd/unibell/?page_id=105
 
+validation
+
+
+ $(document).ready(function() {
+    // confirm password
+    $("#pass2").on('keyup', function() {
+      var password = $("#password").val();
+      var confirmPassword = $("#pass2").val();
+      if (password != confirmPassword)
+        $("#CheckPasswordMatch").html("Password does not match !").css("color", "red");
+      else
+        $("#CheckPasswordMatch").html("Password match !").css("color", "green");
+    });
+
+    // password show methord
+    $("#thepass").click(function () {
+                   $(this).toggleClass("bi bi-eye-slash");
+                 var type = $(this).hasClass("bi-eye-slash") ? "text" : "password";
+                  $("#pass").attr("type", type);
+              });
+        $("#thepass2").click(function () {
+                  $(this).toggleClass("bi bi-eye-slash");
+                var type = $(this).hasClass("bi-eye-slash") ? "text" : "password";
+                $("#pass2").attr("type", type);
+          }); 
+
+    //    confirm email
+    $("#exampleInputEmail2").on('keyup',function(){
+        var email = $("#exampleInputEmail").val();
+        var confirmEmail = $("#exampleInputEmail2").val();
+        if(email != confirmEmail )
+            $("#CheckEmailMatch").html("Email does not match !").css("color","red");
+        
+        else
+            $("#CheckEmailMatch").html("Email  match !").css("color","green");
+        
+    });
+
+    // password matching pattern
+
+    $("#password").on('keyup',function(){
+        $(".confirm").show('slow');
+        if(this.value.length < 8 ){
+            $("#Check1").html("Use 8 or more  characters").css("color", "red"); 
+        }
+         else{
+            $("#Check1").html("Use 8 or more  characters").css("color", "green");
+         }
+      
+        if(!/[a-z]/.test(this.value)){
+            $("#Check2").html("Use upper and lower case letters (e.g. Aa)").css("color", "red"); 
+        }
+        else{
+            $("#Check2").html("Use upper and lower case letters (e.g. Aa)").css("color", "green");
+        }
+
+        if(!/\d/.test(this.value)){
+            $("#Check3").html("Use a number (e.g. 1234)").css("color", "red"); 
+        }
+        else{
+            $("#Check3").html("Use a number (e.g. 1234)").css("color", "green");
+        }
+        if(!/[!@#$_]/.test(this.value)){
+            $("#Check4").html("Use a symbol (e.g. !@#$)").css("color", "red"); 
+        }
+        else{
+            $("#Check4").html("Use a symbol (e.g. !@#$)").css("color", "green");
+        }
+    });
+
+    
+    // form Submisssion
+       $("#submit").on("click",function(){  
+        var password = $("#password").val();
+        var confirmPassword = $("#pass2").val();
+         if( password != confirmPassword){
+             return false;
+         }
+          else {
+               
+             $("form").submit();
+                 
+          }
+      
+       });
+
+
+
+  });
+				
+				
+	end			
+
 
 <!DOCTYPE html>
 <html lang="en">
